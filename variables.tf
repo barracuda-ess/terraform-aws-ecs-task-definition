@@ -248,3 +248,13 @@ variable "workingDirectory" {
   default     = ""
   description = "The working directory in which to run commands inside the container"
 }
+
+variable "taskCpu" {
+  default     = ""
+  description = "CPU for task"
+}
+
+variable "taskMemory" {
+  default     = ""
+  description = "Memory for task"
+}
